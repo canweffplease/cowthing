@@ -26,7 +26,7 @@ const boxsize = 10;
 const half = boxsize / 2;
 //walls
 const bounds = {x : half, y: half, z: half};
-const cowtexture = new THREE.TextureLoader().load('/cowtexture.png');
+const cowtexture = new THREE.TextureLoader().load('/cowthing/cowtexture.png');
 
 const cows = [];
 const maxcows = 100;
