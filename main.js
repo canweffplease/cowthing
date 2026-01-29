@@ -143,7 +143,7 @@ function makeBackgroundText(text) {
   const maxWidth = canvas.width * 0.85;
 
   ctx.font = `bold ${fontSize}px sans-serif`;
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.12)';
+  ctx.fillStyle = 'rgba(255, 255, 255, .7)';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
 
